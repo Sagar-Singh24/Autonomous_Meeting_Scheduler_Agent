@@ -1,0 +1,14 @@
+[project]
+name = "autonomous-meeting-scheduler-backend"
+version = "0.1.0"
+description = "Backend for Autonomous Meeting Scheduler & Prep Agent"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+

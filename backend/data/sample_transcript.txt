@@ -1,0 +1,58 @@
+Q3 Product Sync — July 8, 2025
+Attendees: Priya (PM), Marcus (Eng Lead), Dani (Design), Tom (QA), Riya (Backend)
+
+[Recording starts mid-sentence]
+
+Priya: —yeah so the retro ran long, sorry everyone. Okay let's just jump in. Marcus, where are we on the auth refactor?
+
+Marcus: So we merged the main branch yesterday, uh, the JWT stuff is done. There's still a weird edge case with token refresh on mobile — Riya's looking at it.
+
+Riya: Yeah I found it last night. It's a race condition when two requests fire at the same time. I can have a fix by Thursday, maybe Friday if it's complicated.
+
+Priya: Okay so Riya owns the token refresh fix, target end of week. Got it. Dani, the new onboarding screens?
+
+Dani: Designs are done, I sent them to Marcus on Slack like two days ago. Did you see them?
+
+Marcus: Oh yeah I saw them, I just haven't had time to look properly. I'll review them today, promise.
+
+Priya: Marcus please review Dani's onboarding designs today. Dani, once Marcus signs off, can you hand off specs to Riya?
+
+Dani: Sure, yeah. Probably tomorrow then.
+
+Tom: Can I jump in? QA is blocked on the staging environment — it's been down since Monday. Who owns that?
+
+Marcus: That's DevOps, not really us, but I can ping Chen. He's usually responsive.
+
+Priya: Marcus, can you follow up with Chen today to get staging back up? Tom needs it for the regression suite.
+
+Marcus: Yeah I'll do it right after this call.
+
+Tom: Also — we decided last sprint we were going to drop IE11 support, right? Is that still happening?
+
+Priya: Yes, that decision stands. We're dropping IE11 support as of the v2.4 release. Tom, make sure the regression suite doesn't include IE11 test cases anymore.
+
+Tom: Done, I'll remove them this week.
+
+Priya: Okay, what else. Oh — the analytics dashboard. Where are we?
+
+Riya: I haven't started it. It wasn't on my sprint.
+
+Priya: Hmm. Okay we need to figure out who picks that up. Marcus, can your team absorb it?
+
+Marcus: Honestly we're pretty slammed. Maybe next sprint?
+
+Priya: Let's decide — analytics dashboard gets pushed to next sprint, Marcus's team picks it up. I'll update the board. 
+
+Dani: What about the export to CSV feature? A customer asked about it again.
+
+Priya: That's a nice-to-have, not this sprint. Let's park it. Anyone have blockers I haven't heard?
+
+[Silence]
+
+Priya: Okay cool. So to recap — Riya fixes token refresh by Friday, Marcus reviews onboarding designs today and pings Chen about staging, Tom cleans up the IE11 test cases, analytics moves to next sprint. We good?
+
+Everyone: Yeah / sounds good / yep.
+
+Priya: Alright, same time next week. Bye everyone.
+
+[Recording ends]
